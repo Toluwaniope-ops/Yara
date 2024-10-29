@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+  
+}
+.navone{
+    color: purple;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 6em;
+}
+.navigation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 8rem 5rem 1rem;
+    align-items: center;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, #B5E3FB -29.46%, rgba(196, 196, 196, 0) 100%);
+}
+.navtwo{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem 1rem 1rem 2rem;
+    color: black;
+
+}
+.navtwo a{
+    text-decoration: none;
+    color: black;
+}
+.navthree{
+    width: fit-content;
+    height: auto;
+}
+.navthree button{
+    color: white;
+    background-color:purple;
+    padding: 1rem 1rem 1rem 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 15rem;
+    font-size: 0.9rem;
+   
+}
+.maincontent{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 1rem 8rem 5rem 7rem;
+}
+.mainone{
+    width: 50%;
+    height: auto;
+    text-align: start;
+}
+.maintwo{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 40px;
+}
+
+.mainthree{
+    width:80%;
+    height: auto;
+    text-align: start;
+    margin-top:1rem;
+}
+.mainfour{
+    width:fit-content;
+    height: auto;
+    margin-top: 1rem;
+}
+.mainfour button{
+    color: white;
+    background-color:purple;
+    padding: 1rem 1rem 1rem 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    
+}
+.subcontent{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 18rem;
+
+}
+.subone h1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: purple;
+    font-size: 1.8rem;
+}
+.page{
+    display: flex;
+    padding: 1rem 12rem 12rem;
+    margin-top: 5rem;
+}
+.page p{
+    width: 90%;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+.page a{
+    margin-top: 2rem;
+    color: green;
+    font-size: 0.6rem;
+}
+.page img{
+    width: 300px;
+    height: 280px;
+}
+.pageone{
+    margin-top: 0px;
+}
+.pagetwo{
+    margin-top: 4rem;
+}
+.pagethree{
+    margin-top: 6rem;
+}
+.wave-container{
+    width: 100%;
+    height: 900px;
+    background-color: #7854F6;
+
+    position: relative;
+}
+.curve{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.curve-top{
+    width: 100%;
+    height: 100px;
+    top: 0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.curve-bottom{
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    z-index: 1;
+}
+.curve1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 15rem;
+    position: relative;
+    margin-top: -2rem;
+
+}
+.curve1 img{
+    width: 300px;
+    height: 417px;
+    margin-top: 0.2rem;
+    padding-top: 0.5rem;
+    z-index: 1;
+    border-radius: 20px;
+}
+.curve1 h3{
+ width: 50%;
+ height: auto;
+ margin-top: -2rem;
+ font-family: "Roboto", sans-serif;
+}
+.curve2{
+   padding-left:30px; 
+   margin-top: 10rem;
+   color:white;
+}
+.curve1 p{
+    width: 50%;
+    height: auto;
+    margin-top: 0.9rem;
+    font-size: 15px;
+}
+.curve1 button{
+    margin-top: 1.5rem;
+    background: #70C216;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    padding: 0.5rem  1.5rem 0.7rem;
+}
+.curve4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    padding: 8rem 17rem;
+}
+.curve4 img{
+    width: 280px;
+    height: 400px;
+    margin-top: -6rem;
+    z-index: 1;
+    position: relative;
+    border-radius: 20px;
+}
+.curve4 p{
+    width: 100%;
+    height: auto;
+    margin-top: 0.9rem;
+    font-size: 15px;
+}
+.curve4 button{
+    margin-top: 1.5rem;
+    background: #70C216;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    padding: 0.5rem  1.5rem 0.7rem;
+}
+.subsection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+    background-color:#7854F6;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 5rem;
+    
+}
+ .subsection h3{
+    width: 70%;
+    height: auto;
+    padding-left: 17rem;
+    color: white;
+    
+ } 
+ .subsection button{
+    color: white;
+    background-color:#7854F6;
+    padding: 0.5rem  1.5rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 5rem;
+  
+ }
+.footer{
+    width: 100%;
+    height: auto;
+    padding-left: 6rem;
+    padding-top: 5rem;
+    background-color:#7854F6;
+    margin-top: 5rem;   
+    color: white;
+    display: flex;
+    justify-content: start;
+    column-gap: 50px;
+}
+
+.footer1{
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.footer2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.footer3{
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.footer1 p{
+    width: 100%;
+    /* padding-top: 2rem; */
+}
+.footer2 ul{
+    list-style: none;
+    width: fit-content;
+   
+}
+li{
+display: flex;
+flex-direction: column;
+row-gap: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.footer3{
+    display: flex;
+
+}
+.container2{
+ background-color: white;
+ width:40px;
+ height: 40px;
+ border-radius: 2px solid;
+
+}
+
+.containers{
+    display: flex;
+    column-gap: 10px;
+}
